@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp3.MainPage">
+
+    <StackLayout>
+        <DatePicker WidthRequest="150" Margin="0, 100, 0, 20"></DatePicker>
+        <Entry ReturnType="Search"></Entry>
+        <TimePicker WidthRequest="150" Format="HH:mm"></TimePicker>
+    </StackLayout>
+
+</ContentPage>
